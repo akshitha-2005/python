@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_python_1688838656743-pr-trigger-input-set
+  identifier: Build_python_1688838656743prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: Python_CI
+  pipeline:
+    identifier: Build_python_1688838656743
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
